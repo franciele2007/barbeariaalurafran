@@ -29,7 +29,7 @@
 
 .escola {
     background-image: linear-gradient(#aca1a1, #ff0000);
-    color: black;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +49,7 @@
 }
 
 .estudante-imagem{
-    width: 18%;
+    width: 29%;
 }
 
 .estudante-icone{
@@ -63,4 +63,28 @@
 
 .estudantes{
 
+}
+
+.estudante-div { 
+    text-align: center; padding: 20px 20px; }
+    .estudantes { background-image: linear-gradient(#b10e0e, #0c0404); }
+    .estudante-titulo { text-align: center; padding: 30px; font-size: 32px; color: white; } 
+    .estudante-todos { display: grid; grid-template-columns: 25% 25% 25% 25%; }
+
+
+    .rodape{
+    background-color: #ff0000;
+    text-align: center;
+}
+
+
+
+.rodape-imagem{
+    width: 45%;
+}
+
+.rodape-texto{
+    color: aqua;
+    font-size: 32px;
+    padding: 21px;
 }
